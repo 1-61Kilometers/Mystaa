@@ -1,0 +1,18 @@
+# Full path of the file
+$file = 'PullControllerIP.exe'
+
+# If the file does not exist, create it.
+if (-not(Test-Path -Path $file -PathType Leaf)) {
+     if(Test-Path -Path 'PullControllerIP.csc' -PathType Leaf) {
+        try {
+            csc PullControllerIP.csc
+        }
+        catch {
+            throw $_.Exception.Message
+        }
+     }
+ }
+# If the file already exists, run PullContollerIP.exe
+ else {
+     Start-Process -FilePath $file
+ }

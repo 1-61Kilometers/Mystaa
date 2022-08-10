@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProductSettings version="2.0">
+  <Products>
+    <Product name="RobotControl" version="7.3.1+122" id="abb.robotics.robotcontrol">
+      <Features>
+        <Feature id="abb.robotics.robotcontrol.base" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.languages.english" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.flexpendant.limited" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.flexpendant.essential" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.flexpendant.program" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.leadthrough" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.safemove.collaborative" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.safemove.smpnp" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.nocat0stop" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.udpuc" displayName="UDPUC Driver" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.multitasking" displayName="3114-1 Multitasking" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.drivesystems.drive.dc48.du48.dm48.single" displayName="Drive System CRB 15000" robot="1" />
+        <Feature id="abb.robotics.robotcontrol.options.externallyguidedmotion" displayName="3124-1 Externally Guided Motion (EGM)" robot="1" />
+      </Features>
+    </Product>
+    <Product name="RobotOS" version="3.1.0+0" id="abb.robotics.robotos">
+      <Features>
+        <Feature id="abb.robotics.robotos" robot="1" />
+      </Features>
+    </Product>
+    <Product name="Robots" version="1.3.1+61" id="abb.robotics.robots">
+      <Features>
+        <Feature id="abb.robotics.robots.robots.crb15000.5-0_95" displayName="CRB 15000-5/0.95" robot="1" />
+      </Features>
+    </Product>
+  </Products>
+</ProductSettings>
